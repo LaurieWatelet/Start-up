@@ -1,9 +1,9 @@
-<!--Page d'accueil de la startup qui présente de manière général la stratup et les produits-->
+<!--ici l'idée est de récup les information de slug pour afficher la page produits-->
 
 <script setup>
 const query = gql`
-  query PageAccueil {
-    page(where: {slug: "accueil"}) {
+  query Produits {
+    page(where: {slug: "produits"}) {
     id
     slug
     titre
@@ -23,10 +23,6 @@ contenuAccueil.value = data.value.page;
 
 <template>
   <div>
-    <h2>{{ contenuAccueil.titre }}</h2>
     <div v-html="contenuAccueil.texte.html"></div>
-
-    <!-- Lien vers la page Produits.vue -->
-    <router-link to="produits" exact exact-active-class="active">Produits</router-link>
   </div>
 </template>
