@@ -1,5 +1,4 @@
-<!--Page d'accueil de la startup qui présente de manière général la stratup et les produits-->
-
+<!--Page d'accueil de la startup-->
 <script setup>
 const query = gql`
   query PageAccueil {
@@ -18,7 +17,6 @@ const contenuAccueil = ref();
 const { data } = await useAsyncQuery(query);
 console.log(data.value);
 contenuAccueil.value = data.value.page;
-/*ICI SE TROUVE .page*/
 </script>
 
 <template>
