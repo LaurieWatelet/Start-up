@@ -23,8 +23,5 @@ contenuAccueil.value = data.value.page;
   <div>
     <h2>{{ contenuAccueil.titre }}</h2>
     <div v-html="contenuAccueil.texte.html"></div>
-
-    <!-- Lien vers la page Produits.vue -->
-    <router-link to="produits" exact exact-active-class="active">Produits</router-link>
   </div>
 </template>
