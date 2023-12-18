@@ -21,6 +21,6 @@
     </div>
 
   </div>
-<!--Fin de la div de naiguation-->
+<!--Fin de la div de naviguation-->
 
 </template>
