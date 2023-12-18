@@ -12,13 +12,11 @@ const query = gql`
   }
 }
 `;
-
 const contenuAccueil = ref();
 const { data } = await useAsyncQuery(query);
 console.log(data.value);
 contenuAccueil.value = data.value.page;
 </script>
-
 <template>
   <div>
     <h2>{{ contenuAccueil.titre }}</h2>
