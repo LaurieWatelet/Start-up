@@ -8,8 +8,8 @@
         <h1 class="text-5xl">Produits</h1>
       </NuxtLink>
 
-      <NuxtLink to="/">
-        <h1 class="text-5xl">...</h1>
+      <NuxtLink to="../blog/article">
+        <h1 class="text-5xl">Blog</h1>
       </NuxtLink>
 
       <NuxtLink to="/">
