@@ -5,6 +5,7 @@ const query = gql`
       id
       nom
       slug
+      prix
       description
       createdAt
       publishedAt
@@ -41,6 +42,7 @@ produit.value = data.value.produit;
     <NuxtImg :src="produit.image.url" :alt="produit.nom"/>
     <h2 class="text-2xl text-center mb-3 mt-3">{{ produit.nom }}</h2>
     <p class="description">{{ produit.description }}</p>
+    <p class="text-center">{{ produit.prix }} €</p>
   </div>
   <div v-else>
     <li>Loading...</li>

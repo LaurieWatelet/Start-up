@@ -6,6 +6,7 @@ const query = gql`
       description
       id
       nom
+      prix
       publishedAt
       slug
       updatedAt
@@ -33,6 +34,7 @@ produits.value = data.value.produits;
       <NuxtLink :to="`/produits/${produit.slug}`" class="text-center block">
         <NuxtImg :src="produit.image.url" :alt="produit.nom" class="mx-auto mb-2" />
         <h2 class="text-center text-lg mb-2">{{ produit.nom }}</h2>
+        <p class="text-center">{{ produit.prix }} €</p>
       </NuxtLink>
     </li>
   </ul>
