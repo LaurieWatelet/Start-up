@@ -1,1 +1,0 @@
-<template>entreprise</template>
