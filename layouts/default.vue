@@ -13,12 +13,20 @@
         <h1 class="text-5xl">Produits</h1>
       </NuxtLink>
 
-      <NuxtLink to="../blog/article">
-        <h1 class="text-5xl">Blog</h1>
+      <NuxtLink to="/societe">
+        <h1 class="text-5xl">Société</h1>
       </NuxtLink>
 
-      <NuxtLink to="/">
-        <h1 class="text-5xl">...</h1>
+      <NuxtLink to="../equipe/membre">
+        <h1 class="text-5xl">Equipe</h1>
+      </NuxtLink>
+
+      <NuxtLink to="/contact">
+        <h1 class="text-5xl">Contact</h1>
+      </NuxtLink>
+
+      <NuxtLink to="../blog/article">
+        <h1 class="text-5xl">Blog</h1>
       </NuxtLink>
     </nav>
     <!--Fin de la Nav-->
