@@ -20,24 +20,28 @@ const query = gql`
     }
   }
 `;
-
 const membres = ref();
-const { data } = await useAsyncQuery(query);
-console.log(data.value);
-membres.value = data.value.membres;
+
+onMounted(async () => {
+  const { data } = await useAsyncQuery(query);
+  membres.value = data.value.membres;
+});
 </script>
 <!--Ce code controle la description d'aperçu de l'image-->
 <template>
-  <ul v-if="membres" class="flex flex-wrap justify-start">
-    <li v-for="membre in membres" :key="membre.id" class="mx-7 my-4 shadow-xl">
-      <NuxtLink :to="`/equipe/${membre.slug}`" class="text-center block">
-        <NuxtImg :src="membre.image.url" :alt="membre.nom" class="mx-auto mb-2" />
-        <h2 class="text-center text-lg mb-2">{{ membre.nom }}</h2>
-        <p>Fondateur CEO</p>
-      </NuxtLink>
-    </li>
-  </ul>
-  <ul v-else>
-    <li>Loading...</li>
-  </ul>
+  <div>
+    <ul v-if="membres" class="flex flex-wrap justify-start">
+      <li v-for="membre in membres" :key="membre.id" class="mx-7 my-4 shadow-xl">
+        <div class="text-center block">
+          <NuxtImg :src="membre.image.url" :alt="membre.nom" class="mx-auto mb-2" />
+          <h2 class="text-center text-lg mb-2">{{ membre.nom }}</h2>
+          <p class="description text-md">{{ membre.description }}</p>
+          <p>Fondateur CEO</p>
+        </div>
+      </li>
+    </ul>
+    <ul v-else>
+      <li>Loading...</li>
+    </ul>
+  </div>
 </template>
