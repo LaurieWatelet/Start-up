@@ -1,32 +1,34 @@
 <template>
 
-  <!--Début de la div de naviguation-->
-  <div class="min-h-screen bg-blue-500">
-    <!--Début de la Nav-->
-    <nav class="container flex">
+  <!--Container Div générale-->
+  <div class="">
+    <!--Naviguation container-->
+    <nav class="container bg-blue-500 flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+
+      <img class="h-16" src="../pages/img/logo.png">
 
       <NuxtLink to="/">
-        <h1 class="text-lg">Accueil</h1>
+        <h1 class="text-lg border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Accueil</h1>
       </NuxtLink>
 
       <NuxtLink to="../produits/produits">
-        <h1 class="text-lg">Produits</h1>
+        <h1 class="text-lg border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Produits</h1>
       </NuxtLink>
 
       <NuxtLink to="/societe">
-        <h1 class="text-lg">Société</h1>
+        <h1 class="text-lg border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Société</h1>
       </NuxtLink>
 
       <NuxtLink to="../equipe/membre">
-        <h1 class="text-lg">Équipe</h1>
+        <h1 class="text-lg border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Équipe</h1>
       </NuxtLink>
 
       <NuxtLink to="/contact">
-        <h1 class="text-lg">Contact</h1>
+        <h1 class="text-lg border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Contact</h1>
       </NuxtLink>
 
       <NuxtLink to="../blog/article">
-        <h1 class="text-lg">Blog</h1>
+        <h1 class="text-lg border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Blog</h1>
       </NuxtLink>
     </nav>
     <!--Fin de la Nav-->
