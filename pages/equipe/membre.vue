@@ -36,7 +36,6 @@ onMounted(async () => {
           <NuxtImg :src="membre.image.url" :alt="membre.nom" class="mx-auto mb-2" />
           <h2 class="text-center text-lg mb-2">{{ membre.nom }}</h2>
           <p class="description text-md">{{ membre.description }}</p>
-          <p>Fondateur CEO</p>
         </div>
       </li>
     </ul>
