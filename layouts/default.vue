@@ -3,9 +3,9 @@
   <!--Container Div générale-->
   <div class="">
     <!--Naviguation container-->
-    <nav class="container bg-blue-500 flex items-center justify-center p-6 mx-auto text-gray-600 capitalize dark:text-gray-300">
+    <nav class="container bg-blue-500 flex items-center justify-center p-2 mx-auto text-gray-600 capitalize dark:text-gray-300">
 
-      <img class="h-16" src="../pages/img/logo.png">
+      <img class="h-20" src="../pages/img/logo.png">
 
       <NuxtLink to="/">
         <h1 class="text-lg border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Accueil</h1>
