@@ -1,7 +1,7 @@
 <template>
 
   <!--Container Div générale-->
-  <div class="border-2 border-rose-600">
+  <div class="border-2 border-rose-600 bg-[conic-gradient(at_right,_var(--tw-gradient-stops))] from-indigo-200 via-slate-600 to-indigo-200">
     <!--Naviguation container-->
     <nav class="container sticky bg-white flex items-center backdrop-filter backdrop-blur-lg bg-opacity-30 justify-center p-2 mx-auto text-black capitalize dark:text-gray-300">
 

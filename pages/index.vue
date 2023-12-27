@@ -31,7 +31,5 @@ contenuAccueil.value = data.value.page;
         Voir nos produits
       </NuxtLink>
     </div>
-
-
   </div>
 </template>
