@@ -24,10 +24,10 @@ contenuAccueil.value = data.value.page;
     <!-- Autres contenus de la page d'accueil -->
 
     <!-- Encadré avec un CTA direction la page produits-->
-    <div class="bg-gray-200 p-8 my-8">
-      <h2 class="text-3xl font-bold mb-4">Découvrez nos produits et services</h2>
-      <p class="text-lg mb-4">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nullam ac libero quis justo dignissim tincidunt. Aenean vel massa id elit euismod imperdiet.</p>
-      <NuxtLink to="/produits/produits" class="bg-blue-500 text-white px-6 py-3 rounded bg-blue-700 transition duration-300 ease-in-out inline-block">
+    <div class="bg-purple-400 p-8 rounded max-w-md">
+      <h2 class="text-xl font-bold mb-4">Découvrez nos produits et services !</h2>
+      <p class="text-base mb-8">Explorez l'avenir avec TecGiggle, là où l'innovation rencontre la simplicité. Plongez dans notre collection de gadgets et de services conçus pour rendre votre vie technologique plus excitante et sans tracas.</p>
+      <NuxtLink to="/produits/produits" class="bg-cyan-700 text-white px-6 py-3 rounded">
         Voir nos produits
       </NuxtLink>
     </div>

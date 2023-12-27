@@ -1,14 +1,14 @@
 <template>
 
   <!--Container Div générale-->
-  <div class="">
+  <div class="border-2 border-rose-600">
     <!--Naviguation container-->
-    <nav class="container bg-blue-500 flex items-center justify-center p-2 mx-auto text-gray-600 capitalize dark:text-gray-300">
+    <nav class="container sticky bg-white flex items-center backdrop-filter backdrop-blur-lg bg-opacity-30 justify-center p-2 mx-auto text-black capitalize dark:text-gray-300">
 
       <img class="h-20" src="../pages/img/logo.png">
 
       <NuxtLink to="/">
-        <h1 class="text-lg border-b-2 border-transparent hover:text-gray-800 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Accueil</h1>
+        <h1 class="text-lg border-b-2 dark:hover:text-gray-200 hover:border-green-500 mx-1.5 sm:mx-6">Accueil</h1>
       </NuxtLink>
 
       <NuxtLink to="../produits/produits">
