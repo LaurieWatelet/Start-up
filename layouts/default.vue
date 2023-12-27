@@ -1,9 +1,9 @@
 <template>
 
   <!--Container Div générale-->
-  <div class="bg-gradient-to-r from-green-300 to-purple-400">
+  <div class="">
     <!--Naviguation container-->
-    <nav class="container sticky bg-white flex items-center backdrop-filter backdrop-blur-lg bg-opacity-30 justify-center p-2 mx-auto text-black capitalize dark:text-gray-300">
+    <nav class="container sticky bg-gradient-to-r from-fuchsia-600 to-purple-600 flex items-center backdrop-filter shadow justify-center p-2 mx-auto text-black capitalize dark:text-gray-300">
 
       <img class="h-20" src="../pages/img/logo.png">
 
