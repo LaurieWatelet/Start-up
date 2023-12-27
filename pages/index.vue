@@ -27,7 +27,6 @@ contenuAccueil.value = data.value.page;
       <img class="h-52" src="../pages/img/slogan.png">
     </div>
 
-
     <div class="flex flex-row border-2">
     <!-- Encadré avec un CTA direction la page produits-->
     <div class="bg-purple-400 border-2 border-black p-8 rounded max-w-md">
