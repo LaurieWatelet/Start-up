@@ -1,10 +1,9 @@
 <template>
-
-  <!--Contient toute les modifs sur les pages design-->
-  <div class="bg-gradient-to-r from-violet-500 to-fuchsia-500">
-    <!--Naviguation container-->
-    <nav class="container flex items-center justify-center p-2 mx-auto text-black capitalize dark:text-gray-300">
-
+  <!-- Contient toutes les modifications sur les pages design -->
+  <div>
+    <!-- Navigation container -->
+    <nav class="container p-4 shadow bg-white backdrop-blur-lg bg-opacity-20 flex items-center justify-center p-2 mx-auto text-black capitalize dark:text-gray-300">
+      <img class="h-10" src="../pages/img/Logo.png">
       <NuxtLink to="/">
         <h1 class="text-base border-b-2 border-transparent text-black hover:border-green-500 mx-4 sm:mx-10">Accueil</h1>
       </NuxtLink>
@@ -29,14 +28,11 @@
         <h1 class="text-base border-b-2 border-transparent text-black hover:border-green-500 mx-4 sm:mx-10">Blog</h1>
       </NuxtLink>
     </nav>
-    <!--Fin de la Nav-->
+    <!-- Fin de la Nav -->
 
-    <div class="container mx-auto px-3 h-14">
-      
+    <div class="container mx-auto bg-gradient-to-r from-violet-500 to-fuchsia-500 min-h-screen px-3 h-14">
       <slot />
     </div>
-
   </div>
-<!--Fin de la div de naviguation-->
-
+  <!-- Fin de la div de navigation -->
 </template>

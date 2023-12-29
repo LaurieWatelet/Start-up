@@ -19,19 +19,17 @@ contenuAccueil.value = data.value.page;
 </script>
 
 <template>
-
-      <h1 class="text-xl italic shadow p-4 bg-white backdrop-blur-lg bg-opacity-30">"Innovation Intelligente, Solutions Simples, Votre Quotidien Réinventé..."</h1>
-<img src="img/space.jpg">
-
-
-    <!-- Encadré produits-->
-    <div class="bg-amber-200  border-2 border-black p-8 rounded max-w-md">
-      <h2 class="text-xl font-bold mb-4">Découvrez nos produits et services !</h2>
-      <p class="text-base mb-8">Explorez l'avenir avec TecGiggle, là où l'innovation rencontre la simplicité. Plongez dans notre collection de gadgets et de services conçus pour rendre votre vie technologique plus excitante et sans tracas.</p>
-      <NuxtLink to="/produits/produits" class="bg-cyan-700 text-white px-6 py-3 rsounded">
-        Voir nos produits
-      </NuxtLink>
+  <!-- Conteneur global avec fond gradient -->
+  <div class="">
+         <!--div du bloc au dessus-->
+         <div class="flex flex-row pt-9">
+      <div class="flex flex-col">
+        <h1 class="font-bold">ViruoPlay, transformez votre réalité, vivez votre rêve...</h1>
+        <p>Découvrez un monde où la réalité se transforme en aventure, on vous ouvre les portes d'une expérience virtuelle captivante</p>
+      </div>
+      <img class="h-48 rounded-2xl" src="@/pages/img/space.jpg" alt="Image de l'espace"/>
     </div>
-    <!-- Encadré produits-->
+</div>
+  <!---->
 
 </template>
