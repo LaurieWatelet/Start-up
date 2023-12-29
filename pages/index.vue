@@ -24,7 +24,7 @@ contenuAccueil.value = data.value.page;
 
     <div class="flex flex-row items-center">
       <h1 class="text-xl italic shadow p-4 bg-white backdrop-blur-lg bg-opacity-30">"Innovation Intelligente, Solutions Simples, Votre Quotidien Réinventé..."</h1>
-      <img class="object-cover w-65 pt-10" src="">
+      <img class="object-cover w-65 pt-10" src="img/fond.jpg">
     </div>
 
     <div class="flex flex-row">
