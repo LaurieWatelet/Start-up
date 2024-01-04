@@ -48,5 +48,4 @@ contenuAccueil.value = data.value.page;
 </div>
 <!---->
 
-
 </template>
