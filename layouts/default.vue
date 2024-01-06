@@ -31,28 +31,20 @@
     </nav>
     <!-- Fin de la Nav -->
 
-    <div class="container mx-auto bg-gradient-to-r from-violet-500 to-fuchsia-500 min-h-screen px-3 h-14">
+    
+
+    <div>
       <slot />
     </div>
-  </div>
-
-  <!-- Footer -->
+      <!-- Footer -->
   <footer class="bg-sky-950 pt-8 pb-6">
   <div class="container mx-auto px-4">
-    <div class="flex flex-wrap text-left lg:text-left">
+    <div class="flex text-left lg:text-left">
       <div class="w-full lg:w-6/12 px-4">
-        <h4 class="text-3xl fonat-semibold text-white"> Restons en contact !</h4>
+        <h4 class="text-3xl pt-7 fonat-semibold text-white"> Restons en contact !</h4>
         <h5 class="text-lg mt-0 mb-2 text-white">
-        Retrouvez-nous sur l'une de ces plateformes, nous répondons sous 1 à 2 jours ouvrables.
+        Retrouvez-nous sur les réseaux sociaux : Instagram et Facebook 
         </h5>
-        <div class="mt-6 lg:mb-0 mb-6">
-          <button class="bg-white text-lightBlue-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i class="fa-brands fa-square-x-twitter"></i></button><button class="bg-white text-black shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i class="fab fa-facebook-square"></i></button><button class="bg-white text-pink-400 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i class="fab fa-dribbble"></i></button><button class="bg-white text-blueGray-800 shadow-lg font-normal h-10 w-10 items-center justify-center align-center rounded-full outline-none focus:outline-none mr-2" type="button">
-            <i class="fab fa-github"></i>
-          </button>
-        </div>
       </div>
       <div class="w-full lg:w-6/12 px-4">
         <div class="flex flex-wrap items-top mb-6">
@@ -60,7 +52,7 @@
             <span class="block uppercase text-white text-sm font-semibold mb-2">Liens utiles</span>
             <ul class="list-unstyled">
               <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">About Us</a>
+                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Société</a>
               </li>
               <li>
                 <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Blog</a>
@@ -68,22 +60,16 @@
               <li>
                 <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Github</a>
               </li>
-              <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Free Products</a>
-              </li>
             </ul>
           </div>
           <div class="w-full lg:w-4/12 px-4">
             <span class="block uppercase text-white text-sm font-semibold mb-2">Autres ressources</span>
             <ul class="list-unstyled">
               <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">MIT License</a>
+                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="e">Termes et Conditions</a>
               </li>
               <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="e">Termes &amp; Conditions</a>
-              </li>
-              <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Privacy Policy</a>
+                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Politique de confidentialité</a>
               </li>
               <li>
                 <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Contact</a>
@@ -104,8 +90,7 @@
     </div>
   </div>
 </footer>
-
-
+  </div>
 
   <!-- Fin de la div de navigation -->
 </template>

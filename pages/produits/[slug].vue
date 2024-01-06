@@ -37,14 +37,17 @@ produit.value = data.value.produit;
 
 <!--Ce code controle la description quand on clique sur l'image-->
 
-<template class="">
-  <div v-if="produit" class="max-w-lg">
-    <NuxtImg :src="produit.image.url" :alt="produit.nom"/>
-    <h2 class="text-2xl text-center mb-3 mt-3">{{ produit.nom }}</h2>
-    <p class="description">{{ produit.description }}</p>
-    <p class="text-center">{{ produit.prix }} €</p>
+<template>
+  <div v-if="produit" class="max-w-xs mx-auto p-4 bg-white rounded-md shadow-md mb-4">
+    <NuxtImg :src="produit.image.url" :alt="produit.nom" class="h-auto rounded-md mb-2" />
+    <h2 class="text-lg text-center mb-1 font-bold">{{ produit.nom }}</h2>
+    <p class="text-gray-700 text-center text-sm mb-2">{{ produit.description }}</p>
+    <p class="text-center text-base font-bold">{{ produit.prix }} €</p>
   </div>
-  <div v-else>
-    <li>Loading...</li>
+  <div v-else class="text-center mt-4">
+    <span class="animate-spin text-sm">Loading...</span>
   </div>
 </template>
+
+
+
