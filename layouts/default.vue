@@ -4,7 +4,7 @@
   <div>
     <!-- Navigation container -->
     <nav class="container p-4 shadow bg-sky-950 flex items-center justify-center p-2 mx-auto text-black capitalize dark:text-gray-300">
-      <img class="h-10" src="../pages/img/Logo.png">
+      <img class="h-10" src="../pages/img/logo.png">
       <NuxtLink to="/">
         <h1 class="text-base border-b-2 border-transparent text-white hover:border-green-500 mx-4 sm:mx-10">Accueil</h1>
       </NuxtLink>
