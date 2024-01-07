@@ -30,7 +30,7 @@ articles.value = data.value.articles;
 <!--Ce code controle la description d'aperçu de l'image-->
 <template>
   <ul v-if="articles" class="flex flex-wrap justify-start">
-    <li v-for="article in articles" :key="article.id" class="mx-7 my-4 shadow-xl">
+    <li v-for="article in articles" :key="article.id" class="mx-7 bg-white pt-9 my-4 shadow-xl">
       <NuxtLink :to="`/blog/${article.slug}`" class="text-center block">
         <NuxtImg :src="article.image.url" :alt="article.nom" class="mx-auto mb-2" />
         <h2 class="text-center text-lg mb-2">{{ article.nom }}</h2>

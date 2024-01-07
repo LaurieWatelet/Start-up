@@ -52,13 +52,13 @@
             <span class="block uppercase text-white text-sm font-semibold mb-2">Liens utiles</span>
             <ul class="list-unstyled">
               <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Société</a>
+                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Société</a>
               </li>
               <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Blog</a>
+                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Blog</a>
               </li>
               <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Github</a>
+                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Github</a>
               </li>
             </ul>
           </div>
@@ -66,13 +66,13 @@
             <span class="block uppercase text-white text-sm font-semibold mb-2">Autres ressources</span>
             <ul class="list-unstyled">
               <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="e">Termes et Conditions</a>
+                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Termes et Conditions</a>
               </li>
               <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Politique de confidentialité</a>
+                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Politique de confidentialité</a>
               </li>
               <li>
-                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="">Contact</a>
+                <a class="text-white hover:text-blueGray-800 font-semibold block pb-2 text-sm" href="#">Contact</a>
               </li>
             </ul>
           </div>
@@ -83,7 +83,7 @@
     <div class="flex flex-wrap items-center md:justify-between justify-center">
       <div class="w-full md:w-4/12 px-4 mx-auto text-center">
         <div class="text-sm text-white font-semibold py-1">
-          Copyright © <span id="get-current-year">2023</span><a href=""></a>
+          Copyright © <span id="get-current-year">2023</span><a href="#"></a>
           <a href="" class="text-blueGray-500 hover:text-blueGray-800"></a>
         </div>
       </div>
@@ -91,6 +91,4 @@
   </div>
 </footer>
   </div>
-
-  <!-- Fin de la div de navigation -->
 </template>

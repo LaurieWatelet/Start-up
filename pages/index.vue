@@ -27,7 +27,7 @@ contenuAccueil.value = data.value.page;
      <div class="flex flex-col m-0 pt-6 justify-center max-w-lg">
        <h1 class="text-4xl mb-3 font-bold">ViruoPlay, transformez votre réalité, vivez votre rêve...</h1>
        <p class="text-lg mb-5">Découvrez un monde où la réalité se transforme en aventure, on vous ouvre les portes d'une expérience virtuelle captivante</p>
-       <NuxtLink to="/produits/produits" class="bg-cyan-700 w-60 text-white text-center px-6 py-3 rounded-full">
+       <NuxtLink to="/societe" class="bg-cyan-700 w-60 text-white text-center px-6 py-3 rounded-full">
          Découvrir notre histoire
        </NuxtLink>
      </div>
@@ -41,7 +41,7 @@ contenuAccueil.value = data.value.page;
   <!---->
   <!-- Div qui contient une image de fleche mis en row avec un padding haut de 4px et au centre de la page-->
   <div class="flex flex-row pt-4 justify-center">
-    <img class="h-14 mt-6 rounded-2xl" src="@/pages/img/fleche.png" alt="Image de l'espace"/>
+    <img class="h-14 mt-6 rounded-2xl" src="@/pages/img/fleche.png" alt="Image de fleche"/>
   </div>
   <!---->
 
@@ -53,9 +53,9 @@ contenuAccueil.value = data.value.page;
 
   <!-- Div qui contient la section produits-->
   <div class="mt-3 pt-9 flex flex-row justify-center">
-    <img class="h-52 pr-5" src="@/pages/img/casque.jpg" alt="Image de l'espace"/>
-    <img class="h-64 pb-9" src="@/pages/img/appli.jpg" alt="Image de l'espace"/>
-    <img class="h-52 pl-5" src="@/pages/img/equipement.jpg" alt="Image de l'espace"/>
+    <img class="h-52 pr-5" src="@/pages/img/casque.jpg" alt="Image de casque"/>
+    <img class="h-64 pb-9" src="@/pages/img/appli.jpg" alt="Image d'appli"/>
+    <img class="h-52 pl-5" src="@/pages/img/equipement.jpg" alt="Image d'equipement"/>
   </div>
 
   <!-- Div call to action-->
